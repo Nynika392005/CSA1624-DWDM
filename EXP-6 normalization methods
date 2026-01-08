@@ -1,0 +1,10 @@
+age <- c(18,25,30,35,40,45,50)
+
+# (i) Min-Max
+(age[4] - min(age)) / (max(age) - min(age))
+
+# (ii) Z-score
+(35 - mean(age)) / 12.94
+
+# (iii) Decimal Scaling
+35 / 100
